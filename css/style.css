@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+.navigation {
+  margin-top: 20px;
+  font-family: var(--font1);
+  /* height: 74px;  */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+}
+
+.nav-left span {
+  font-size: 35px;
+  padding-top: 10px;
+}
+
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 77px;
+  font-size: 22px;
+  padding-bottom: 23px;
+}
+
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-family: var(--font2);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-left ul li a:hover {
+  color: var(--main-bg-color);
+  font-weight: bolder;
+}
+
+
+video {
+  padding: 10px;
+  box-shadow: 0px 0px 10px 8px rgb(37, 37, 37);
+  border-radius: 15px;
+  display: block;
+  max-width: 80vw;
+  margin: auto;
+}
+
+.contentvid {
+  padding: 20px;
+  max-width: 80vw;
+  margin: auto;
+  font-family: var(--font1);
+  line-height: 25px;
+  width: 100%;
+  
+}
+
+
+
+.content {
+  box-shadow: 0px 0px 10px 4px rgb(46, 46, 46);
+  border-radius: 15px;
+  height: 100%;
+  display: flex;
+  margin-top: 32px;
+  padding: 9px;
+  position: relative;
+}
+
+.content::after {
+  box-shadow: 0px 0px 10px 14px rgb(250, 3, 209);
+  content: "";
+  background-image: url("https://gctpnews.org/wp-content/uploads/2018/03/nepal.jpg");
+  position: absolute;
+  width: 98%;
+  height: 96%;
+  opacity: 0.2;
+  border-radius: 15px;
+}
+.my_pic_back::after {
+  box-shadow: 0px 0px 10px 14px rgb(250, 3, 209);
+  content: "";
+  background-image: url("https://lh3.googleusercontent.com/dpLFjW-7pjaSzZHBlA04g6Qs73tSZE7oSdb3rUlYmAK3EurleOOE0km4Kfxi9zfXU4aAZIJ1tOhLnZGpKs7JmEsiuPIKUvF6ow6HHp8C0nRdu4C0ganxRyb3Fm6jUdF0htlplI_7zgRD0hVCkxW5ZWxc-a-9w9LBkoAoqE_8LGA6bq1XtTWvDEJSA7rCk2-QksQFUshWBa49WkkSJBMpAWLsbHmfIswYez00ofClTsDSDziO5e8tBDgv8qec93emXftIMzzYLOH50EU3EULifAh_0A0cGb7Cy6zu9WCFV5qDaPUQs8FnVD61-MuADPHFDOUKJ86WJX9hDndaBzs2zBUkKLCAHSxnxsSUqBDK1Dq5yZWyKErOHhNosW61M6TeNI4lzPI6kKnF8TSlSz7_5FeloziW4Fp2MUaqxgF5wqn5EMAYrUJxsq7SH-F_x_vqqEeqcpQfpJ9JWGTtAsf-TDSf8REywmrvZ3X_oOS-1LQyxIvTSXH-p9q0tgQQ2zxCSGMTX5_20K9SQun8y26oNUcmPjEGtLv7Y-XHe528OcKO91RJr6_bJr12ef0EtI4TjUz2ZhxJulHKFYmjHNfB9oQl5eOhrez3lAK2UoxFovjmRgbePTYqpUghEkAJwuXBb8wZESFuUdtMkuA89RFF53WI9QkNzwIwRP9kAcc_i7wkV9mDPqkzRovTbczNLms=w887-h665-no?authuser=0");
+  position: absolute;
+  width: 98%;
+  height: 96%;
+  opacity: 0.2;
+  border-radius: 15px;
+}
+
+.content-left {
+  font-family: var(--font1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 49px;
+  z-index: 1;
+}
+
+.content-right {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-right img {
+  height: 355px;
+  border: 2px solid black;
+  border-radius: 200px;
+}
+
+.home-articles {
+  border-radius: 15px;
+  padding: 18px;
+  box-shadow: 0px 0px 10px 5px rgb(36, 36, 36);
+  background-color: rgba(253, 251, 251, 0.5);
+  margin-top: 23px;
+  margin-bottom: 23px;
+  position: relative;
+}
+
+.article_box{
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 4px rgb(250, 3, 209);
+}
+.article_box img{
+  box-shadow: 0px 0px 10px 2px rgb(41, 41, 41);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.year-box {
+  position: absolute;  
+  right: 0px;
+  top: 100px;
+  width: 234px;
+  height: 255px;
+  font-size: 18px;
+}
+
+.year-box div {
+  margin: 12px 0px;
+}
+
+.home-article {
+  display: flex;
+  margin: 25px;
+}
+
+.home-article img {
+  height: 230px;
+  width: 300px;
+}
+
+.home-article-content {
+  align-self: center;
+  padding: 25px;
+}
+
+.home-article-content a {
+  text-decoration: none;
+  color: black;
+}
+
+/* address */
+.boxes {
+  border-radius: 15px;
+  font-family: var(--font1);
+  max-width: 79vw;
+  margin: auto;
+  padding: 25px;
+  box-shadow: 0px 0px 10px 5px rgb(46, 46, 46);
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.color2 {
+  margin-bottom: 10px !important;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.fa-map-marker:before {
+  content: "\f15";
+  font-weight: bolder;
+}
+
+.shravasti-address {
+  max-width: 65vw;
+  word-spacing: 3px;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: left;
+  margin-left: 22px;
+}
+
+.add-heading {
+  font-size: 20px;
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+
+/* .home-articles{} */
+.footer {
+  height: 80px;
+  background-color: rgb(248, 232, 202);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: white; */
+  flex-direction: column;
+}
+
+.footer a {
+  color: white;
+}
